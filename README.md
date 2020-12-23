@@ -7,8 +7,6 @@
 
 中文 | [English](https://github.com/hjw6160602/aria2-ariang-x-docker-compose/blob/master/README.en.md)
 
-<img src="https://raw.githubusercontent.com/hjw6160602/work-in-australia/766592ac6318027d7b3c334d8c50ca80818eeff8/wepay.jpg" alt="buy me a drink" width="120"/>
-
 - [Aria2-AriaNg-X docker-compose](#aria2-ariang-x-docker-compose)
   - [应用截图](#应用截图)
   - [为什么会有这个东西](#为什么会有这个东西)
