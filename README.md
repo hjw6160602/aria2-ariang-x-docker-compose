@@ -5,9 +5,9 @@
 <a href="https://badges.toozhao.com" alt="Generate your badge to count for any page views at https://badges.toozhao.com"><img src="https://badge.home.toozhao.com/svg/aria2-ariang-x-docker-compose" width=500/></a>
 
 
-中文 | [English](https://github.com/wahyd4/aria2-ariang-x-docker-compose/blob/master/README.en.md)
+中文 | [English](https://github.com/hjw6160602/aria2-ariang-x-docker-compose/blob/master/README.en.md)
 
-<img src="https://raw.githubusercontent.com/wahyd4/work-in-australia/766592ac6318027d7b3c334d8c50ca80818eeff8/wepay.jpg" alt="buy me a drink" width="120"/>
+<img src="https://raw.githubusercontent.com/hjw6160602/work-in-australia/766592ac6318027d7b3c334d8c50ca80818eeff8/wepay.jpg" alt="buy me a drink" width="120"/>
 
 - [Aria2-AriaNg-X docker-compose](#aria2-ariang-x-docker-compose)
   - [应用截图](#应用截图)
@@ -38,11 +38,11 @@
 
 |    名称     |                                                       截图                                                       |
 | :---------: | :--------------------------------------------------------------------------------------------------------------: |
-|   AriaNg    |    ![AriaNg](https://raw.githubusercontent.com/wahyd4/aria2-ariang-x-docker-compose/master/images/ariang.jpg)    |
-|   Filerun   |   ![filerun](https://raw.githubusercontent.com/wahyd4/aria2-ariang-x-docker-compose/master/images/filerun.jpg)   |
-|    h5ai     |      ![h5ai](https://raw.githubusercontent.com/wahyd4/aria2-ariang-x-docker-compose/master/images/h5ai.png)      |
-|  nextcloud  | ![nextcloud](https://raw.githubusercontent.com/wahyd4/aria2-ariang-x-docker-compose/master/images/nextcloud.png) |
-| Filebrowser |             ![filebrowser](https://github.com/wahyd4/aria2-ariang-docker/raw/master/filemanager.png)             |
+|   AriaNg    |    ![AriaNg](https://raw.githubusercontent.com/hjw6160602/aria2-ariang-x-docker-compose/master/images/ariang.jpg)    |
+|   Filerun   |   ![filerun](https://raw.githubusercontent.com/hjw6160602/aria2-ariang-x-docker-compose/master/images/filerun.jpg)   |
+|    h5ai     |      ![h5ai](https://raw.githubusercontent.com/hjw6160602/aria2-ariang-x-docker-compose/master/images/h5ai.png)      |
+|  nextcloud  | ![nextcloud](https://raw.githubusercontent.com/hjw6160602/aria2-ariang-x-docker-compose/master/images/nextcloud.png) |
+| Filebrowser |             ![filebrowser](https://github.com/hjw6160602/aria2-ariang-docker/raw/master/filemanager.png)             |
 
 ## 为什么会有这个东西
 
@@ -77,7 +77,7 @@ _提示_ 如果你不是在本地安装，请记得替换 localhost 为你的 ip
 如果你希望指定`UID`和`GID`，还希望可以使用`Plex` 来管理下载的电影等资源，强烈推荐使用 Filebrowser。
 
 ```bash
-  git clone https://github.com/wahyd4/aria2-ariang-x-docker-compose.git
+  git clone https://github.com/hjw6160602/aria2-ariang-x-docker-compose.git
   cd aria2-ariang-x-docker-compose/plex-filebrowser
   # 前往 https://www.plex.tv/claim/ 获取 TOKEN， 并填充至 `plex-filebrowser` 目录下的 `docker-compose.yml`下的 `PLEX_CLAIM`字段。
   docker-compose up -d
@@ -94,7 +94,7 @@ _提示_ 如果你不是在本地安装，请记得替换 localhost 为你的 ip
 ### 使用 **h5ai** 作为在线文件查看和播放
 
 ```bash
-  git clone https://github.com/wahyd4/aria2-ariang-x-docker-compose.git
+  git clone https://github.com/hjw6160602/aria2-ariang-x-docker-compose.git
   cd aria2-ariang-x-docker-compose/h5ai
   docker-compose up -d
 ```
@@ -108,7 +108,7 @@ _提示_ 如果你不是在本地安装，请记得替换 localhost 为你的 ip
 ### 使用 **Filerun** 作为在线文件管理器
 
 ```bash
-  git clone https://github.com/wahyd4/aria2-ariang-x-docker-compose.git
+  git clone https://github.com/hjw6160602/aria2-ariang-x-docker-compose.git
   cd aria2-ariang-x-docker-compose/filerun
   docker-compose up -d
 ```
@@ -122,7 +122,7 @@ _提示_ 如果你不是在本地安装，请记得替换 localhost 为你的 ip
 ### 使用 **Nextcloud** 安装
 
 ```bash
-  git clone https://github.com/wahyd4/aria2-ariang-x-docker-compose.git
+  git clone https://github.com/hjw6160602/aria2-ariang-x-docker-compose.git
   cd aria2-ariang-x-docker-compose/nextcloud
   docker-compose up -d
 ```
@@ -131,7 +131,7 @@ _提示_ 如果你不是在本地安装，请记得替换 localhost 为你的 ip
 
 2. AriaNg： <http://localhost/ui>
 
-Nextcloud 还需额外的一点手动操作，[链接配置外部存储](https://github.com/wahyd4/aria2-ariang-x-docker-compose/tree/master/nextcloud#nextcloud-配置-external-storage)
+Nextcloud 还需额外的一点手动操作，[链接配置外部存储](https://github.com/hjw6160602/aria2-ariang-x-docker-compose/tree/master/nextcloud#nextcloud-配置-external-storage)
 
 > **注意**: 由于 Nextcloud 镜像启动较慢，平均需要 3-10 分钟，在启动之前访问会得到`502`错误，请耐心等待一下,如果 Docker 相关容器没有错误日志，即不用担心。
 
@@ -140,7 +140,7 @@ Nextcloud 还需额外的一点手动操作，[链接配置外部存储](https:/
 终于你在树莓派🍓上也可以使用本项目了。ARM 版本的 Nextcloud 和普通的 Nextcloud 提供一样的功能，唯一不同的是，启动的命令需要指定不同的文件
 
 ```bash
-  git clone https://github.com/wahyd4/aria2-ariang-x-docker-compose.git
+  git clone https://github.com/hjw6160602/aria2-ariang-x-docker-compose.git
   cd aria2-ariang-x-docker-compose/nextcloud
   docker-compose -f arm32-docker-compose.yml up
 ```
@@ -149,7 +149,7 @@ Nextcloud 还需额外的一点手动操作，[链接配置外部存储](https:/
 
 2. AriaNg： <http://localhost/ui>
 
-Nextcloud 还需额外的一点手动操作，[链接配置外部存储](https://github.com/wahyd4/aria2-ariang-x-docker-compose/tree/master/nextcloud#nextcloud-配置-external-storage)
+Nextcloud 还需额外的一点手动操作，[链接配置外部存储](https://github.com/hjw6160602/aria2-ariang-x-docker-compose/tree/master/nextcloud#nextcloud-配置-external-storage)
 
 > **注意**: 由于 Nextcloud 镜像启动较慢，平均需要 3-10 分钟，在启动之前访问会得到`502`错误，请耐心等待一下,如果 Docker 相关容器没有错误日志，即不用担心。
 
@@ -172,7 +172,7 @@ docker-compose up -d # 运行最新版本的镜像
 
 ```yaml
 aria2:
-  image: wahyd4/aria2-ui:filerun
+  image: hjw6160602/aria2-ui:filerun
   links:
     - web:file-manager
   ports:
@@ -200,7 +200,7 @@ environment:
   - RPC_SECRET=Hello #这个属性是 配置AriaNg 连接 Aria2 时需要，你可以输入你想要设置的密码。一旦设置了 HTTPS, Aria2 也只能使用 HTTPS。这时就必须使用该设置。
 ```
 
-由于配置 HTTPS 比较麻烦，图文请参见[启用 SSL](https://github.com/wahyd4/aria2-ariang-x-docker-compose/blob/master/enable-ssl.md)
+由于配置 HTTPS 比较麻烦，图文请参见[启用 SSL](https://github.com/hjw6160602/aria2-ariang-x-docker-compose/blob/master/enable-ssl.md)
 
 ## 找到你下载的文件
 
@@ -209,7 +209,7 @@ environment:
 ## 什么？一个 Docker 镜像包含所有功能？Yes!!!(如：在群晖中运行)
 
 ```bash
-  docker run -d --name aria2-ui -p 80:80 -v ~/data:/data wahyd4/aria2-ui
+  docker run -d --name aria2-ui -p 80:80 -v ~/data:/data hjw6160602/aria2-ui
 ```
 
 `80` 本地则是你暴露出对外访问的 AriaNg 图形界面的端口， `~/data/` 是你所有通过 Aria2 下载的文件目录
@@ -217,19 +217,19 @@ environment:
 - Aria2: <http://localhost/ui>
 - FileManger: <http://localhost>
 
-**推荐** ：使用该 Docker 镜像，一个镜像集成 BT 下载、文件管理、在线播放等功能。关于该镜像的更多使用介绍，请参考：<https://github.com/wahyd4/aria2-ariang-docker>
+**推荐** ：使用该 Docker 镜像，一个镜像集成 BT 下载、文件管理、在线播放等功能。关于该镜像的更多使用介绍，请参考：<https://github.com/hjw6160602/aria2-ariang-docker>
 
 ## 常见问题 FAQ
 
 - Nextcloud 没有权限管理下载的文件？ 不要忘记在主机上运行`chown -R www-data <文件夹>`,该文件夹即为你设置的 docker-compose nextcloud service 下面设置的位于`宿主机(不是dokcer 容器里面的)`的共享文件夹。
 - AriaNg 界面不能显示？请记住目前在访问 AriaNg 界面的时候，地址最后一定要添加 `/`
 - Nextcloud 不能访问？页面显示`502`？， 由于 Nextcloud 启动耗时较长，大致为`5`分钟左右，请耐心等待。如果 3 分钟之后依然不能显示，请查看`nextcloud`的 Docker 容器是否有错误日志输出，如果没有，再稍等多等一下即可。
-- 不支持 ARM CPU 平台？ 目前暂没有让 docker-compose 项目支持 ARM 的计划，但是推荐你试试这个单镜像版本 [`wahyd4/aria2-ui:arm64`](https://github.com/wahyd4/aria2-ariang-docker)
+- 不支持 ARM CPU 平台？ 目前暂没有让 docker-compose 项目支持 ARM 的计划，但是推荐你试试这个单镜像版本 [`hjw6160602/aria2-ui:arm64`](https://github.com/hjw6160602/aria2-ariang-docker)
 - 下载的 BT 或者磁力完全没有速度怎么办？ 建议先下载一个热门的 BT 种子文件，而不是磁力链接。这样可以帮助缓存 DHT 文件，渐渐地，速度就会起来了。比如试试下载树莓派操作系统的 BT 种子？[前往下载](https://www.raspberrypi.org/downloads/raspbian/), 也可以前往 [Internet Archive](https://archive.org/details/feature_films) 下载免费的电影，以此作为开始。
 
 ## Plex
 
-![Plex Media server](https://raw.githubusercontent.com/wahyd4/aria2-ariang-x-docker-compose/master/images/plex.jpg)
+![Plex Media server](https://raw.githubusercontent.com/hjw6160602/aria2-ariang-x-docker-compose/master/images/plex.jpg)
 Plex 是一个视频服务器，有了 Plex 之后，你通过本程序可以实现：
 
 `下载视频` -> `文件管理` -> `视频播放` -> `分享 / 远程投屏` 集一体的解决方案。
